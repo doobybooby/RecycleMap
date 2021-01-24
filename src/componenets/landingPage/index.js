@@ -8,7 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { render } from '@testing-library/react';
-
+import '../../resources/images/pizzabox.jpeg'
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
@@ -19,22 +19,22 @@ export default function ImgMediaCard() {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
+
+    <Card className = "card" className={classes.root}>
       <CardActionArea>
         <CardMedia
           component="img"
           alt="Contemplative Reptile"
           height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
+          image="https://imcoutdoorliving.com/wp-content/uploads/rubberific/blog-pizza.jpg"
+          title="Pizza Box"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            Pizza Box
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p" position="center">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+            Oily pizza boxes are not considered as a good "recyclable item". Please do not recycle if your pizza box looks like this.
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -48,6 +48,6 @@ export default function ImgMediaCard() {
       </CardActions>
     </Card>
 
-    
+
   );
 }
