@@ -1,8 +1,14 @@
+.vn_wrapper {
+    display: flex;
+    padding: 170px 0px;
+}
+
 .vn_item {
-    width:50%;
+    width:45%;
     columns: #000000;;
     text-align: center;
 }
+                      
 .vn_item .vn_outer {
     width: 300px;
     border: 2px solid #828282;
@@ -18,5 +24,50 @@
 }
 
 .vn_item .vn_inner:hover {
-    background: #3e3e3e;
+    background: green;
+}
+
+.vn_item .vn_icon_square {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: -54px;
+    left: 100px;
+}
+
+.vn_item .vn_icon {
+    width: 50px;
+    height: 50px;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    position: absolute;
+    top: -30px;
+    left: 124px;
+}
+
+.vn_item .vn_title {
+    font-size: 28px;
+    margin: 90px 0px 20px 0px;
+    border-bottom: 1px solid #5d5d5d;
+    padding-bottom: 10px;
+}
+
+.vn_item .vn_desc {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 90px;
+}
+
+.login_button{
+    color: white;
+    padding: 3px;
+    background-color: green;
+    text-align: center;
+    border-radius: 25px;
+    width: 20%;
+    height: 10%;
+
 }
