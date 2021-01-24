@@ -13,6 +13,8 @@ import InteractiveList from './componenets/materialList';
 import Info from './componenets/infoPage';
 import OutlinedButtons from './componenets/button';
 import MS from './componenets/MS';
+import Contact from './componenets/contact'
+import "./css/app.css"
 
 
 
@@ -26,6 +28,7 @@ function App() {
       <InteractiveList/>
       <ImgMediaCard/>
       <OutlinedButtons/>
+      <Contact />
       
 
 
