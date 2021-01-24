@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -14,6 +15,8 @@
     "react-loader-spinner": "^3.1.14",
     "react-native-animated-nav-tab-bar": "^3.0.5",
     "react-scripts": "4.0.1",
+    "react-scroll": "^1.8.1",
+    "react-slick": "^0.27.14",
     "reactjs-navbar": "^1.0.2",
     "web-vitals": "^0.2.4",
     "zoom": "0.0.2"

@@ -1,8 +1,18 @@
 .header_container{
-    color:aqua;       
+    color:rgb(7, 102, 14);       
 }
 .header_title{
-    color: rgb(0,0,0);
+    color: rgb(7,102,14);
     text-align: center;
     text-shadow: 0px 2px;
+}
+
+.nav_bar{
+    background-color: #055524;
+}
+
+.header_logo{
+    width:300px; 
+    height:300px; 
+    padding:20; 
 }

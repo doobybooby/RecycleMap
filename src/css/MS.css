@@ -1,0 +1,52 @@
+.ms_center_wrapper {
+    margin: auto;
+}
+
+.ms_wrapper h2 {
+    border-top: 5px solid black;
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+    color: black;
+    font-size: 52px;
+    background-color: white;
+    padding: 25px 20px;
+}
+
+.ms_wrapper .ms_item .ms_icon_square {
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    
+    
+    padding: 20px 20px;
+    margin: 10px;
+    display: flex;
+}
+
+.ms_item_wrapper{
+    display:flex;
+}
+
+.ms_wrapper .ms_desc  {
+    font-size: 34px;
+    font-weight: 100;
+    margin: 0px;
+    color: rgb(4, 66, 56);
+    font-weight: bold;
+}
+
+.ms_wrapper .ms_desc { 
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+.ms_item .ms_inner h2:hover {
+    background: rgb(5, 105, 75);
+}
+
+
