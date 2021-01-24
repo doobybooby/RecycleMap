@@ -1,0 +1,22 @@
+.vn_item {
+    width:50%;
+    columns: #000000;;
+    text-align: center;
+}
+.vn_item .vn_outer {
+    width: 300px;
+    border: 2px solid #828282;
+    margin: auto;
+    padding: 5px;
+}
+
+.vn_item .vn_inner { 
+    border: 2px solid #828282;
+    position: relative;
+    padding: 0px 20px;
+    transition: all 500ms ease;
+}
+
+.vn_item .vn_inner:hover {
+    background: #3e3e3e;
+}
