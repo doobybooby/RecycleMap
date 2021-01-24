@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
+
 import Header from './componenets/header';
+
 function App() {
   return (
     <div 
@@ -11,7 +13,6 @@ function App() {
         }}
     >
       <Header/>
-
     </div>
   );
 }
